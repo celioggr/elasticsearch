@@ -6,9 +6,9 @@ This chapter hopefully will provide a concise well-structured overview of Elasti
 
 ##Table of Contents
 
-1. [Introduction]()
+1. [Introduction](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#introduction)
 
-2. Basic Concepts
+2. [Basic Concepts](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#basic-concepts)
 
 	* Node
 
@@ -18,20 +18,18 @@ This chapter hopefully will provide a concise well-structured overview of Elasti
 
 	* Shards
 
-3. [A top-down approach on ElasticSearch]()
+3. [A top-down approach on ElasticSearch](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#a-top-down-approach-on-elasticsearch)
 	* Why ElasticSearch?
 	
 	* From the Top...
 	
 	* ...To the bottom
 
-4. Further tasks
+4. [Further tasks](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#further-tasks)
 
-5. [Feedback]()
+5. [Feedback](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#feedback)
 
-6. [Acknowledgments]()
-
-7. [Contact Us!]()
+6. [Contact Us!](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#contact-us)
 
 ##Introduction
 
@@ -107,8 +105,6 @@ As soon as we get a coordinator node it consults the mappings to determine which
  For your feedback, you can:
 
  * Contact up201303171@fc.up.pt
-
-##Acknowledgements
 
 
 ##Contact Us
