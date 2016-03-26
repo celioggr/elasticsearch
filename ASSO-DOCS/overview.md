@@ -2,7 +2,9 @@
 
 ##Abstract
 
+Elasticsearch is an open-source, search engine designed for horizontal scalability, reliability, and easy management which can power extremely fast searches in your data. Basically Elasticsearch is a database server based on Lucene, and written in Java, that takes data in and stores it in a sophisticated format. Its main protocol is implemented with HTTP/JSON which is a lightweight format that is used for data interchanging.
 This chapter hopefully will provide a concise well-structured overview of ElasticSearch Software Architecture. We hope that the insights presented here will make it easier for people to joint efforts and contribute to the project providing the core team of ElasticSearch an outsider’s feedback.
+The project has been structured from multiple viewpoints having regard to the 4+1 view model.
 
 ##Table of Contents
 
@@ -37,7 +39,10 @@ This chapter hopefully will provide a concise well-structured overview of Elasti
 
 ##Introduction
 
- As a group of students from the [Faculty of Sciences of Porto, Portugal (FCUP)](https://sigarra.up.pt/fcup/en/WEB_PAGE.INICIAL) attending the Software Architecture course we hope that this document allow you better understanding the concept behind ElasticSearch. During a period of 5 months we'll try to understand and describe ElasticSearch software architecture and hopefully make some worth contributions to the project.
+Elasticsearch is an open-source, search engine which can power extremely fast searches. It is currently a very active open source project, which handles pull requests daily. This makes Elasticsearch an excellent candidate for a Software Architecture analysis.
+As a group of students from the [Faculty of Sciences of Porto, Portugal (FCUP)](https://sigarra.up.pt/fcup/en/WEB_PAGE.INICIAL) attending the Software Architecture course we hope that this document allow you better understanding the concept behind ElasticSearch. During a period of 5 months we'll try to understand and describe ElasticSearch software architecture and hopefully make some worth contributions to the project.
+We will first describe more detailed what Elasticsearch is, how and for what it can be used. Then we will look at the architecture itself, in terms of the logical, process, development and physical views.
+Finally, we bring all the views together to see how robust the architecture of ElasticSearch is, taking in great consideration the System consistency and validity.
 
 
 ##What is ElasticSearch?
@@ -129,7 +134,7 @@ As soon as we get a coordinator node it consults the mappings to determine which
 
 ##Contact Us
 
-Here's the people who take some time writting this:
+Here are the people who take some time writting this:
 
 * Célio Rodrigues @github/celioggr up201303171@fc.up.pt
 * Cláudia Correia (...)
