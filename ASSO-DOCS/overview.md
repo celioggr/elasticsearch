@@ -41,6 +41,7 @@ The project has been structured from multiple viewpoints having regard to the 4+
 
 Elasticsearch is an open-source, search engine which can power extremely fast searches. It is currently a very active open source project, which handles pull requests daily. This makes Elasticsearch an excellent candidate for a Software Architecture analysis.
 As a group of students from the [Faculty of Sciences of Porto, Portugal (FCUP)](https://sigarra.up.pt/fcup/en/WEB_PAGE.INICIAL) attending the Software Architecture course we hope that this document allow you better understanding the concept behind ElasticSearch. During a period of 5 months we'll try to understand and describe ElasticSearch software architecture and hopefully make some worth contributions to the project.
+
 We will first describe more detailed what Elasticsearch is, how and for what it can be used. Then we will look at the architecture itself, in terms of the logical, process, development and physical views.
 Finally, we bring all the views together to see how robust the architecture of ElasticSearch is, taking in great consideration the System consistency and validity.
 
