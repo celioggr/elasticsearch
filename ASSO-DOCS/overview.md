@@ -8,7 +8,11 @@ This chapter hopefully will provide a concise well-structured overview of Elasti
 
 1. [Introduction](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#introduction)
 
-2. [Basic Concepts](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#basic-concepts)
+2. [What is ElasticSearch](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#what-is-elasticsearch)
+
+3. [What for](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#what-for)
+
+4. [Basic Concepts](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#basic-concepts)
 
 	* Node
 
@@ -18,22 +22,38 @@ This chapter hopefully will provide a concise well-structured overview of Elasti
 
 	* Shards
 
-3. [A top-down approach on ElasticSearch](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#a-top-down-approach-on-elasticsearch)
+5. [A top-down approach on ElasticSearch](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#a-top-down-approach-on-elasticsearch)
 	* Why ElasticSearch?
 	
 	* From the Top...
 	
 	* ...To the bottom
 
-4. [Further tasks](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#further-tasks)
+6. [Further tasks](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#further-tasks)
 
-5. [Feedback](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#feedback)
+7. [Feedback](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#feedback)
 
-6. [Contact Us!](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#contact-us)
+8. [Contact Us!](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#contact-us)
 
 ##Introduction
 
  As a group of students from the [Faculty of Sciences of Porto, Portugal (FCUP)](https://sigarra.up.pt/fcup/en/WEB_PAGE.INICIAL) attending the Software Architecture course we hope that this document allow you better understanding the concept behind ElasticSearch. During a period of 5 months we'll try to understand and describe ElasticSearch software architecture and hopefully make some worth contributions to the project.
+
+
+##What is ElasticSearch?
+
+ Elasticsearch is an independent database server, written in Java, that stores data in a sophisticated format optimized for language based searches. Working with it is convenient as its main protocol is implemented with HTTP/JSON. Elasticsearch is also easily scalable, supporting clustering and leader election out of the box.
+
+
+##What for?
+ 
+ Elasticsearch is a tool for querying written words. It can perform some other smart tasks, but at its core it’s made for wading through text, returning text similar to a given query and/or statistical analyses of a corpus of text. Some of its purposes are:
+
+* Find a product database, by the description;
+* Find similar text in a number of websites;
+* Search through posts in a blog;
+* Phrase suggester or autocomplete ("Did you mean" in Google was implemented using ElasticSearch);
+* Among others...
 
 
 ##Basic Concepts
