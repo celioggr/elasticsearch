@@ -3,7 +3,9 @@
 ##Abstract
 
 Elasticsearch is an open-source, search engine designed for horizontal scalability, reliability, and easy management which can power extremely fast searches in your data. Basically Elasticsearch is a database server based on Lucene, and written in Java, that takes data in and stores it in a sophisticated format. Its main protocol is implemented with HTTP/JSON which is a lightweight format that is used for data interchanging.
+
 This chapter hopefully will provide a concise well-structured overview of ElasticSearch Software Architecture. We hope that the insights presented here will make it easier for people to joint efforts and contribute to the project providing the core team of ElasticSearch an outsider’s feedback.
+
 The project has been structured from multiple viewpoints having regard to the 4+1 view model.
 
 ##Table of Contents
