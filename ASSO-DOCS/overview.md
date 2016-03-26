@@ -109,13 +109,18 @@ A node is a single server that is part of your cluster, stores your data, and pa
 * Index 
 
 
-An index is a collection of documents that have similar characteristics. An index is identified by a name too.
+An index is a collection of documents that have similar characteristics (identified by a name). It is a place to store data. In reality, an index is just a logical namespace that points to one or more physical shards and groups them. Applications talk to the index.
 
 * Shards
 
 
-Shards allow you to "split" the weight on your shoulders. Suppose that you have a tremendous amount of data, you might want to split the weight with others. Well shards allows this! When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent "index" that can be hosted on any node (server) in the cluster.
+We can think about shards as containers for data.
+   
+Shards allow you to "split" the weight on your shoulders. Suppose that you have a tremendous amount of data, you might want to split the weight with others. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent "index" that can be hosted on any node (server) in the cluster. A Shard is a low-level worker unit that hold a slice of all the data in the index.
 
+Your documents are stored and indexed in shards and these shards are allocated to nodes in your cluster. As your cluster grows or shrinks, Elasticsearch will automatically migrate shards between nodes so that the cluster remains balanced.
+
+A shard can be either a primary shard or a replica shard. When you index a document, it is indexed first on the primary shard, then on all replicas of the primary shard. So each document is stored in a single primary shard. On the other hand a replica shard is just a copy of a primary shard. This redundancy of data protects documents from hardware failure (i.e. a replica shard can be promoted to a primary shard if the primary fails) and increases performance (i.e. get and search requests can be handled by primary or replica shards).  
 
 ##A top-down approach on ElasticSearch
 
