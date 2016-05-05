@@ -20,9 +20,13 @@ The project has been structured from multiple viewpoints having regard to the 4+
 
 5. [Basic Concepts](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/overview.md#basic-concepts)
 
-	* Node
-
+	* Field
+	
+	* Document
+	
 	* Cluster
+
+	* Node
 
 	* Index
 
