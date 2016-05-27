@@ -55,7 +55,9 @@ These mecanics are supported by the cluster.action environment represented at th
   
 ##Development View
   
-  
+The development view illustrates the system from a programmer's perspective. Also known as implementation view, the following diagram represents the implementation views. The ElasticSearch is an alternative to traditional databases, as it stores information for each client, and then each client has multiple copies of data. The fact that it is decentralized and that it stores information by indexing is one of the reasons why the number of followers of the technology is constantly increasing. The node.js waits for the customer information to be able to perform operations on the data. Then it just contacts a host in order to do the search from the indexes.
+
+![alt tag](http://i.imgur.com/zovqy7F.png)  
   
 ## Physical View
   
