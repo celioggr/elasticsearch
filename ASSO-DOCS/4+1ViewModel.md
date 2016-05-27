@@ -21,8 +21,8 @@ We will be presenting four components:
   * [Physical View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#physical-view)
   
   
-  ##Logical View
-  The following diagram describes the packages and dependencies of the logical system.
+##Logical View
+The following diagram describes the packages and dependencies of the logical system.
 Here we present the main features that elastic search provides to its user (Search Data,Index Data, Analyse Data) which are 
 implemented by those three packages at the right side of the diagram. These main features take its actions when the user 
 communicates throw the REST API that elasticsearch provides which is a simple way for users to make HTTP REQUESTS to interact with cluster. 
@@ -43,7 +43,7 @@ The packages are described as follows:
 
 ![alt tag](http://i.imgur.com/K8ndXiL.jpg)
   
-  ##Process View
+##Process View
   
 
 The following diagram describes the execution flow of elasticsearch, its interactions and its dynamic functionalities that enable (major or minor) tasks that take place in the cluster.
