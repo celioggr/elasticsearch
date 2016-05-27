@@ -5,6 +5,7 @@
 3. [Process View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#process-view)
 4. [Development View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#development-view) 
 5. [Physical View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#physical-view)
+6. [Use case View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#use-case-view)
 
 ##Introduction
 
@@ -20,7 +21,8 @@ We will be presenting four components:
 
   * [Physical View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#physical-view)
   
-  
+  * [Use case View](https://github.com/celioggr/elasticsearch/blob/master/ASSO-DOCS/4%2B1ViewModel.md#use-case-view)
+
 ##Logical View
 The following diagram describes the packages and dependencies of the logical system.
 Here we present the main features that elastic search provides to its user (Search Data,Index Data, Analyse Data) which are 
@@ -90,3 +92,10 @@ This commands will trigger a foreground elasticsearch process in the console you
 ![alt tag](http://i.imgur.com/lpnVJsG.png)
 
 
+##Use case View
+
+The use case view is responsible for the connection between all other 4 views and represents some of the actions that the stakeholders are allowed to do in the software.
+The ordinary users don't need to know any implementation details in order to interact with the software. This is accomplished by the powerfull REST API that integrates elasticsearch and saves a lot of functional details from users. Given that, the system should provide to its users cluster actions such as index data, search data, analyse data, manage pluggins and manage cluster properties.  From the point of view of the developers they should be able to develop packages that may modify the cluster manipulation and usage.
+
+
+![alt tag](http://i.imgur.com/67HGC2C.png)
