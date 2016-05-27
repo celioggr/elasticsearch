@@ -192,4 +192,4 @@ Here are the people who take some time writting this:
 * Célio Rodrigues @github/celioggr up201303171@fc.up.pt
 * Cláudia Correia (...)
 * Fábio Teixeira  @github/fabioteixeira2up up201305725@fc.up.pt
-* Patricia Silva (...)
+* Patricia Silva  @github/patriciareiasilva up201203528@fc.up.pt
