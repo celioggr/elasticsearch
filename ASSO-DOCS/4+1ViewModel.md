@@ -22,7 +22,26 @@ We will be presenting four components:
   
   
   ##Logical View
-  
+  The following diagram describes the packages and dependencies of the logical system.
+Here we present the main features that elastic search provides to its user (Search Data,Index Data, Analyse Data) which are 
+implemented by those three packages at the right side of the diagram. These main features take its actions when the user 
+communicates throw the REST API that elasticsearch provides which is a simple way for users to make HTTP REQUESTS to interact with cluster. 
+The packages are described as follows:
+
+ * action: 
+  * Deals with all the actions that take place in the cluster such as index, get or seach for data.
+
+ * plugins: 
+  * Allows you to manage the plugins available for elasticsearch such as kibana, marvel or sense.
+
+ * discovery: 
+  * starts the event listeners in order to discover and state other nodes and electing a master of the cluster that raises cluster state change events. 
+  * Publish the changes to the cluster from the master. 
+
+
+
+
+![alt tag](http://i.imgur.com/K8ndXiL.jpg)
   
   ##Process View
   
