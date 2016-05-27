@@ -34,11 +34,11 @@ These mecanics are supported by the cluster.action environment represented at th
 ![alt tag](http://i.imgur.com/Rg4WAwm.png)
 
   
-  ##Development View
+##Development View
   
   
   
-  ##Physical View
+## Physical View
   
   
   
