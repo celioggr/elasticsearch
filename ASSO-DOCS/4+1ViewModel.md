@@ -39,3 +39,33 @@ These mecanics are supported by the cluster.action environment represented at th
   
   
   ##Physical View
+  
+  
+  
+The physical view aims to consider aspects like topology and connections between hardware and Software. This view is also known as Deployment View.
+After downloading and extracting the package from elasticsearch website running it should be pretty straightforward if you already have a Java Runtime Environment installed (Java 7 or later). This is the only requirement that you need (for playing with Elasticsearch on your PC or on a small cluster of machines) if you just want execute it, or a JDK (which includes the JRE). When it comes to deploy Elasticsearch to production a few recommendations needs to be consider, such as: you should garantee at least 16 to 32 GB of memory (most common cases), as many cores as you can fit in the CPU and some SSDs would be a very nice deal too.
+To run elasticsearch just type the following commands:
+
+On linux or OS X
+
+
+```
+cd elasticsearch-<version>
+./bin/elasticsearch
+```
+
+
+On Windows
+
+
+```
+cd elasticsearch-<version>
+bin\elasticsearch.bat
+```
+
+This commands will trigger a foreground elasticsearch process in the console you're ready to go.
+
+
+![alt tag](http://i.imgur.com/lpnVJsG.png)
+
+
